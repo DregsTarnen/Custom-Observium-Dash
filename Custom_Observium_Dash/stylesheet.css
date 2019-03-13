@@ -1,0 +1,168 @@
+
+
+body {
+  font-size: 16px;
+  font-family: Verdana, Arial, sans-serif;
+  font-weight: bold;
+/*  background: #093C3B; */
+  margin: 0;
+/*  color: black; */
+  color: white;
+}
+
+.bodybgred {
+  background: #ff0000;
+}
+
+.bodybgblack {
+  background: #000000;
+}
+
+ul {
+ list-style: bullet;
+ margin-left: 0;
+ padding-left: 1em;
+ text-indent: 0em;
+ }
+
+a {
+	text-decoration: none;
+}
+
+#pagetitle {
+  margin-left: 10px;
+  margin-top: -20px;
+  font-size: 110px;
+  font-weight: normal;
+  text-align: left;
+  color: #79797a;
+  height: 90px;
+  width: 100%;
+}
+
+#container1 {
+  position: absolute;
+  top: 130px;
+  left: 20px;
+  width: 1500px; 
+  height: 900px;
+}
+
+#container2 {
+  position: absolute;
+  top: 130px;
+  left: 1510px;
+  width: 400px; 
+  height: 900px;
+}
+
+#column {
+  position: absolute;
+  top: 128px;
+  left: 750px;
+  width: 620px; 
+  height: auto;
+}
+
+#container3 {
+  position: absolute;
+  left: 20px;
+  top: 950px;
+  width: 70%; 
+  height: auto;
+}
+
+#container_server {
+  float: left;
+  width: 175px;
+  padding: 0.25em;
+  line-height: 80px;
+}
+
+#container_switch {
+  float: left;
+  width: 175px;
+  padding: 0.25em;
+  line-height: 80px;
+}
+
+
+#container_port {
+  float: left;
+  width: 175px;
+  padding: 0.25em;
+  display: table;
+ 
+}
+
+.greenbox {
+  border-radius: 4px;
+  background: #299c46;
+  height: 80px;
+  text-align: center;
+}
+
+.redbox {
+  border-radius: 4px;
+  background: #bf1b00;
+  height: 80px;
+  text-align: center;
+}
+
+.greenboxalert {
+  padding: 20px;
+  border-radius: 4px;
+  background: #299c46;
+  height: auto;
+  text-align: center;
+}
+
+.orangeboxalert {
+  padding: 20px;
+  border-radius: 4px;
+  background: #ff8333; //orange
+  height: auto;
+  text-align: center;
+}
+
+.redboxalert {
+  padding: 20px;
+  border-radius: 4px;
+  background: #bf1b00;
+  height: auto;
+  text-align: center;
+}
+
+.yellowboxerror {
+  display: table-cell;
+  vertical-align: middle;
+  border-radius: 4px;
+  background: #eab839;
+  height: 80px;
+  text-align: center;
+}
+
+.orangeboxerror {
+  display: table-cell;
+  vertical-align: middle;
+  border-radius: 4px;
+  background: #ff8333; //orange
+  height: 80px;
+  text-align: center;
+}
+
+.redboxerror {
+  display: table-cell;
+  vertical-align: middle;
+  border-radius: 4px;
+  background: #bf1b00;
+  height: 80px;
+  text-align: center;
+}
+
+.bigdatabox {
+  padding: 8px;
+  height: auto;
+}
+
+
